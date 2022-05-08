@@ -3,7 +3,7 @@ import React from 'react'
 export const Footer = () => {
     return (
         <>
-            <div className="grid grid-cols-2 gap-32 bg-red-50">
+            <div className="grid lg:grid-cols-2 lg:gap-32 bg-red-50">
                 <div className="col-1 mb-20">
                     <div className='flex'>
                         <img
@@ -37,12 +37,12 @@ export const Footer = () => {
                         <h2 className='text-2xl font-bold text-black mt-10'>Contact Us</h2>
                     </div>
                     <div>
-                        <input className="shadow appearance-none border rounded-3xl w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mt-4 border-gray-400 border-2 hover:border-black" type="text" placeholder="First Name"></input>
-                        <input className="shadow appearance-none border rounded-3xl w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mt-6 border-gray-400 border-2 hover:border-black" type="text" placeholder="Email"></input>
-                        <textarea className="shadow appearance-none border rounded-3xl w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mt-6 border-gray-400 border-2 hover:border-black" type="text" placeholder="Type your message here..." rows="6"></textarea>
+                        <input className="shadow appearance-none border rounded-3xl w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mt-4 border-gray-400 border-2 hover:border-black xl:ml-10" type="text" placeholder="First Name"></input>
+                        <input className="shadow appearance-none border rounded-3xl w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mt-6 border-gray-400 border-2 hover:border-black xl:ml-10" type="text" placeholder="Email"></input>
+                        <textarea className="shadow appearance-none border rounded-3xl w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mt-6 border-gray-400 border-2 hover:border-black xl:ml-10" type="text" placeholder="Type your message here..." rows="6"></textarea>
                     </div>
                     <div>
-                        <button className="bg-black active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 rounded-full px-44 py-3 mt-10">
+                        <button className="bg-black active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 rounded-full px-44 py-3 mt-10 xl:ml-10">
                             <h2 className="text-xl text-white">Submit</h2>
                         </button>
                     </div>

@@ -15,7 +15,7 @@ export const Works = () => {
                         <h1 className='text-5xl font-bold text-white'>How it works?</h1>
                     </div>
                 </div>
-                <div class="grid grid-cols-3 gap-10">
+                <div class="grid lg:grid-cols-3 lg:gap-10">
                     <div class="flex justify-center text-center align-center">
                         <div>
                             <div className='flex justify-center text-center align-center'>

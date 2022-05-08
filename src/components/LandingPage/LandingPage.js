@@ -5,7 +5,7 @@ export const LandingPage = () => {
     return (
         <>
             <section className='bg-red-50'>
-                <div className="grid grid-cols-2">
+                <div className="grid lg:grid-cols-2">
                     <div className="col-1 mt-36 ml-32">
                         <h2 className='font-normal text-3xl'>Introducting Slay<span className='font-bold'>Pay</span></h2>
                         <h1 className='mt-3 font-bold text-6xl mb-10'>India's coolest <br />payment card</h1>

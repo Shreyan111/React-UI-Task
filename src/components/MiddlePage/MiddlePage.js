@@ -5,8 +5,8 @@ export const MiddlePage = () => {
     return (
         <>
             <section className='bg-[#97181a]'>
-                <div className="grid grid-cols-2">
-                    <div className="col-1 mt-36 mb-20 ml-32">
+                <div className="grid lg:grid-cols-2">
+                    <div className="col-1 mt-36 mb-20 ml-10 lg:ml-32">
                         <h1 className='mt-3 font-semibold text-5xl text-white mb-10'>We are here to <br />rescue you from</h1>
                         <ul className='text-white'>
                             <li className='mt-5'>1) Dullness of boring cards</li>

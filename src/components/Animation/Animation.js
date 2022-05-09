@@ -41,7 +41,7 @@ export const Animation = () => {
                 </div>
 
                 <AnimatedOnScroll animationIn="bounceInLeft">
-                    <div className='relative top-[-380px]'>
+                    <div className='relative top-[-300px] left-[-20px] lg:top-[-380px]'>
                         <div className='ani transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 left-1/4 absolute w-2/12 h-2/12 lg:w-12/12 lg:h-12/12'>
                             <img src={Pic16} alt='img' className='w-12/12 h-12/12' />
                         </div>

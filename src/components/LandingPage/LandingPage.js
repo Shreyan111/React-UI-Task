@@ -6,10 +6,10 @@ export const LandingPage = () => {
         <>
             <section className='bg-red-50'>
                 <div className="grid lg:grid-cols-2">
-                    <div className="col-1 mt-36 ml-32">
-                        <h2 className='font-normal text-3xl'>Introducting Slay<span className='font-bold'>Pay</span></h2>
-                        <h1 className='mt-3 font-bold text-6xl mb-10'>India's coolest <br />payment card</h1>
-                        <span className='font-normal text-3xl'>Pay in style with a card <br></br> designed by</span>
+                    <div className="col-1 mt-36 ml-20 lg:ml-32">
+                        <h2 className='font-normal text-2xl lg:text-3xl'>Introducting Slay<span className='font-bold'>Pay</span></h2>
+                        <h1 className='mt-3 font-bold text-4xl lg:text-6xl mb-10'>India's coolest <br />payment card</h1>
+                        <span className='font-normal text-2xl lg:text-3xl'>Pay in style with a card <br></br> designed by</span>
                         <span className='font-normal text-3xl font-script text-red-500'> you</span>
                         <br />
                         <button className="bg-pink-900 hover:bg-black active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 rounded-full px-14 py-4 mt-10">
